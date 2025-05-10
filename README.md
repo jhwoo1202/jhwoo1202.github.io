@@ -1,44 +1,75 @@
-# jhwoo1202.github.io
-# 정현우의 이력서 홈페이지
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>현우의 차린건 쥐뿔도 없지만</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>현우의 차린건 쥐뿔도 없지만</h1>
+    <p>컴퓨터공학과 정현우의 모든 기록을 담은 포트폴리오</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#notice">📚 수강 과목</a></li>
+      <li><a href="#gallery">🖼️ 나의 갤러리</a></li>
+      <li><a href="#history">📖 지내온 과거</a></li>
+      <li><a href="#graduation">🎓 졸업 이수</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="notice">
+      <h2>📚 수강 과목</h2>
+      <ul>
+        <li><strong>2022-1:</strong> Communicative English1, 프로그래밍실습, 이산구조, 컴퓨터개론, 글쓰기, 현대인과성서, 자기계발과 미래설계, 채플, 일본어기초1</li>
+        <li><strong>2022-2:</strong> Communicative English2, 정보보호개론, 확률및통계, 공학과경영, 종합적사고와의사소통, 창의적사고와코딩, 채플</li>
+        <li><strong>2023-1:</strong> 빅데이터의이해, 자료구조, 글로벌영어1, 기업가정신, 진로와경력관리, 파이썬프로그래밍, 영어인터뷰</li>
+        <li><strong>2023-2:</strong> 가족상담, 임베디드시스템및실습, 컴퓨터구조, 채플, 객체지향프로그래밍, 독서지도방법, 글로벌영어2, 알고리즘</li>
+        <li><strong>2024:</strong> 휴학</li>
+        <li><strong>2025-1:</strong> 웹스크립트프로그래밍, 운영체제, 디지털공학, 컴퓨터네트워크, 범죄학으로진실보기, 취업역량스텝업</li>
+      </ul>
+    </section>
 
-## 🔗 GitHub Pages 주소
-https://jhwoo1202.github.io
+    <section id="gallery">
+      <h2>🖼️ 나의 갤러리</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <img src="images/gallery1.jpg" width="300">
+        <img src="images/gallery2.jpg" width="300">
+        <img src="images/gallery3.jpg" width="300">
+      </div>
+      <audio controls autoplay loop muted>
+        <source src="music/background.mp3" type="audio/mp3">
+        브라우저가 오디오를 지원하지 않습니다.
+      </audio>
+    </section>
 
-## 💻 사용 기술
-- HTML, CSS, JavaScript, Python, C++
+    <section id="history">
+      <h2>📖 지내온 과거</h2>
+      <ul>
+        <li>2003년 12월 2일 출생</li>
+        <li>아이들꽃 어린이집</li>
+        <li>느리울초등학교</li>
+        <li>세종 소담중학교</li>
+        <li>2020년 검정고시</li>
+        <li>2021년 수능</li>
+        <li>2022년 한남대학교 입학</li>
+      </ul>
+    </section>
 
-## 📂 주요 프로젝트
-1. **멀티 클라이언트 채팅 시스템**  
-   Python socket으로 구현한 TCP 기반 채팅 서버
+    <section id="graduation">
+      <h2>🎓 졸업 이수</h2>
+      <ul>
+        <li>이수 학점: 정리 예정</li>
+        <li>봉사 시간: 정리 예정</li>
+        <li>졸업 작품: 포트폴리오 홈페이지</li>
+      </ul>
+    </section>
+  </main>
 
-2. **운영체제 스레드 UI 프로젝트**  
-   C++와 Visual Studio를 활용한 다중 스레드 관리
-
-3. **디지털 공학 LED 시뮬레이터**  
-   공통 애노드/캐소드 방식에 따른 회로 구성 실습
-
-4. **포트폴리오 웹사이트**  
-   GitHub Pages 기반 이력서 웹페이지
-
-5. **TODO 앱 개발 (예정)**  
-   JavaScript로 구현 예정인 할 일 관리 앱
-
-## 🎯 희망 직무
-- 백엔드 개발자 또는 공공기관 IT 인력
-
-## 🧩 추가 기능
-
-### 1) 기능 제목: 수상 이력 표시
-- 설명: 주요 공모전 수상 내역을 명시
-- 코드 위치: index.html, line 40~48
-- 코드 설명: `<section>` 태그와 `<ul>`로 수상 항목 구성
-
-### 2) 기능 제목: 프로젝트 소개 영상
-- 설명: 유튜브 링크 삽입으로 영상 소개
-- 코드 위치: index.html, line 55~60
-- 코드 설명: `<iframe>`을 이용해 외부 영상 포함
-
-## 📜 작성자 정보
-- 이름: 정현우  
-- 학번: 20222292  
-- 과목명: 웹스크립트 프로그래밍
+  <footer>
+    <p>&copy; 2025 정현우 | Instagram: @jhw_1202 | BGM: 잔잔한 클래식</p>
+  </footer>
+</body>
+</html>
