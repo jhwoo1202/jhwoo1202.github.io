@@ -1,147 +1,127 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>현우의 차린건 쥐뿔도 없지만</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <title>현우의 홈페이지</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>현우의 차린건 쥐뿔도 없지만</h1>
-    <p>컴퓨터공학과 정현우의 모든 기록을 담은 포트폴리오</p>
-  </header>
-  <nav>
+  <aside class="sidebar">
     <ul>
-      <li><a href="#notice">📚 수강 과목</a></li>
-      <li><a href="#gallery">🖼️ 나의 갤러리</a></li>
-      <li><a href="#history">📖 지내온 과거</a></li>
-      <li><a href="#graduation">🎓 졸업 이수</a></li>
+      <li onclick="showSection('blank')">👋 인삿말</li>
+      <li onclick="showSection('subjects')">📚 학기별 수강과목</li>
+      <li onclick="showSection('gallery')">📸 갤러리</li>
+      <li onclick="showSection('graduation')">🎓 졸업이수</li>
+      <li onclick="showSection('family')">👨‍👩‍👦 가족정보</li>
+      <li onclick="showSection('awards')">🏆 수상이력</li>
+      <li onclick="showSection('sns')">📱 SNS</li>
     </ul>
-  </nav>
+  </aside>
+
   <main>
-    <section id="notice">
+    <section id="blank" class="active">
+      <div class="center-text">차린건 쥐뿔도 없지만</div>
+    </section>
+
+    <section id="greeting">
+      <h2>👋 인삿말</h2>
+      <p>안녕하세요! 저는 한남대학교 컴퓨터공학과 재학 중인 정현우입니다. 저의 기록을 담은 이 홈페이지를 재미있게 구경해 주세요 💫</p>
+    </section>
+
+    <section id="subjects">
       <h2>📚 수강 과목</h2>
       <ul>
-        <li><strong>2022-1:</strong> Communicative English1, 프로그래밍실습, 이산구조, 컴퓨터개론, 글쓰기, 현대인과성서, 자기계발과 미래설계, 채플, 일본어기초1</li>
-        <li><strong>2022-2:</strong> Communicative English2, 정보보호개론, 확률및통계, 공학과경영, 종합적사고와의사소통, 창의적사고와코딩, 채플</li>
-        <li><strong>2023-1:</strong> 빅데이터의이해, 자료구조, 글로벌영어1, 기업가정신, 진로와경력관리, 파이썬프로그래밍, 영어인터뷰</li>
-        <li><strong>2023-2:</strong> 가족상담, 임베디드시스템및실습, 컴퓨터구조, 채플, 객체지향프로그래밍, 독서지도방법, 글로벌영어2, 알고리즘</li>
-        <li><strong>2024:</strong> 휴학</li>
-        <li><strong>2025-1:</strong> 웹스크립트프로그래밍, 운영체제, 디지털공학, 컴퓨터네트워크, 범죄학으로진실보기, 취업역량스텝업</li>
+        <li>2022-1: C프로그래밍, 디지털공학</li>
+        <li>2022-2: 자료구조, 운영체제</li>
       </ul>
     </section>
 
     <section id="gallery">
-      <h2>🖼️ 나의 갤러리</h2>
-      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-<section id="gallery">
-  <h2>🖼️ 나의 갤러리</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-<section id="gallery">
-  <h2>🖼️ 나의 갤러리</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-<section id="gallery">
-  <h2>🖼️ 나의 갤러리</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-    <img src="images/KakaoTalk_20250510_202404549.jpg" width="300">
-    <!-- 번호가 붙은 이미지들 (1~52) -->
-    <!-- 일부 확장자 혼합되었을 수 있음 (.jpg/.webp 등은 확인 필요) -->
-    <img src="images/KakaoTalk_20250510_202404549_01.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_02.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_03.webp" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_04.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_05.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_06.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_07.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_08.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_09.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_10.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_11.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_12.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_13.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_14.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_15.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_16.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_17.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_18.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_19.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_20.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_21.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_22.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_23.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_24.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_25.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_26.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_27.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_28.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_29.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_30.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_31.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_32.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_33.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_34.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_35.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_36.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_37.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_38.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_39.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_40.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_41.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_42.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_43.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_44.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_45.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_46.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_47.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_48.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_49.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_50.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_51.jpg" width="300">
-    <img src="images/KakaoTalk_20250510_202404549_52.jpg" width="300">
-  </div>
-</section>
-
-  </div>
-</section>
-
-    ...
-  </div>
-</section>
-
+      
+      <h2>📸 내 갤러리</h2>
+      <div class="gallery-grid">
+    <img src="images/1.jpg" alt="gallery1">
+    <img src="images/2.jpg" alt="gallery2">
+    <img src="images/3.jpg" alt="gallery3">
+    <img src="images/4.jpg" alt="gallery4">
+    <img src="images/5.jpg" alt="gallery5">
+    <img src="images/6.jpg" alt="gallery6"> 
+    <img src="images/7.jpg" alt="gallery7">
+    <img src="images/8.jpg" alt="gallery8">
+    <img src="images/9.jpg" alt="gallery9">
+    <img src="images/10.jpg" alt="gallery10">
+    <img src="images/11.jpg" alt="gallery11">
+    <img src="images/12.jpg" alt="gallery12">
+    <img src="images/13.jpg" alt="gallery13">
+    <img src="images/14.jpg" alt="gallery14">
+    <img src="images/15.jpg" alt="gallery15">
+    <img src="images/16.jpg" alt="gallery16">
+    <img src="images/17.jpg" alt="gallery17">
+    <img src="images/18.jpg" alt="gallery18">
+    <img src="images/19.jpg" alt="gallery19">
+    <img src="images/20.jpg" alt="gallery20">
+    <img src="images/21.jpg" alt="gallery21">
+    <img src="images/22.jpg" alt="gallery22">
+    <img src="images/23.jpg" alt="gallery23">
+    <img src="images/24.jpg" alt="gallery24">
+    <img src="images/25.jpg" alt="gallery25">
+    <img src="images/26.jpg" alt="gallery26">
+    <img src="images/27.jpg" alt="gallery27">
+    <img src="images/28.jpg" alt="gallery28">
+    <img src="images/29.jpg" alt="gallery29">
+    <img src="images/30.jpg" alt="gallery30">
+    <img src="images/31.jpg" alt="gallery31">
+    <img src="images/32.jpg" alt="gallery32">
+    <img src="images/33.jpg" alt="gallery33">
+    <img src="images/34.jpg" alt="gallery34">
+    <img src="images/35.jpg" alt="gallery35">
+    <img src="images/36.jpg" alt="gallery36">
+    <img src="images/37.jpg" alt="gallery37">
+    <img src="images/38.jpg" alt="gallery38">
+    <img src="images/39.jpg" alt="gallery39">
+    <img src="images/40.jpg" alt="gallery40">
+    <img src="images/41.jpg" alt="gallery41">
+    <img src="images/42.jpg" alt="gallery42">
+    <img src="images/43.jpg" alt="gallery43">
+    <img src="images/44.jpg" alt="gallery44">
+    <img src="images/45.jpg" alt="gallery45">
+    <img src="images/46.jpg" alt="gallery46">
+    <img src="images/47.jpg" alt="gallery47">
+    <img src="images/48.jpg" alt="gallery48">
+    <img src="images/49.jpg" alt="gallery49"></p>
+    </div>
+        <!-- ... -->
       </div>
-      <audio controls autoplay loop>
-        <source src="music/background.mp3" type="audio/mp3">
-        브라우저가 오디오를 지원하지 않습니다.
-      </audio>
     </section>
-
-    <section id="history">
-      <h2>📖 지내온 과거</h2>
-      <ul>
-        <li>2003년 12월 2일 출생</li>
-        <li>아이들꽃 어린이집</li>
-        <li>느리울초등학교</li>
-        <li>세종 소담중학교</li>
-        <li>2020년 검정고시</li>
-        <li>2021년 수능</li>
-        <li>2022년 한남대학교 입학</li>
-      </ul>
+      </div>
     </section>
 
     <section id="graduation">
-      <h2>🎓 졸업 이수</h2>
-      <ul>
-        <li>이수 학점: 정리 예정</li>
-        <li>봉사 시간: 정리 예정</li>
-        <li>졸업 작품: 포트폴리오 홈페이지</li>
-      </ul>
+      <h2>🎓 졸업 이수 정보</h2>
+      <p>이수 학점: 130학점 중 80학점 이수<br>봉사 시간: 24시간</p>
+    </section>
+
+    <section id="family">
+      <h2>👨‍👩‍👦 가족 정보</h2>
+      <p>외동으로 부모님과 저 혼자 있고 저는 학교 근처에 자취하며 본가는 세종시에 있습니다.</p>
+    </section>
+
+    <section id="awards">
+      <h2>🏆 수상 이력</h2>
+      <p>2023 국어문학창작학과 동화책만들기 최우수상</p>
+    </section>
+
+    <section id="sns">
+      <h2>📱 인스타그램</h2>
+      <p><a href="https://www.instagram.com/jhw_1202" target="_blank">@jhw_1202</a></p>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 정현우 | Instagram: @jhw_1202 | BGM: 잔잔한 클래식</p>
-  </footer>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('main section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
 </body>
 </html>
